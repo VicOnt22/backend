@@ -1,0 +1,533 @@
+{
+    "_key": null,
+    "_id": "ae296445-6dd9-4fce-b064-a5ce2908f14a",
+    "_type": "combo",
+    "name": {
+        "en": "4pcs Mild Signature Chicken Platter"
+    },
+    "comboItems": [
+        {
+            "name": {
+                "en": "Chicken Cut 4 Signature Chicken Mild"
+            },
+            "_type": "comboItem",
+            "_id": "000338ad-edf0-4180-bda3-51d246d16387",
+            "uiPattern": "collapsed",
+            "amountRequiredToSelect": 4,
+            "comboItemOptions": [
+                {
+                    "minAmount": 1,
+                    "maxAmount": 1,
+                    "defaultAmount": 1,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40834",
+                        "name": {
+                            "en": "1pc Leg Mild"
+                        },
+                        "nutrition": {
+                            "calories": 160,
+                            "sodium": 460,
+                            "cholesterol": 40
+                        }
+                    }
+                },
+                {
+                    "minAmount": 1,
+                    "maxAmount": 1,
+                    "defaultAmount": 1,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40835",
+                        "name": {
+                            "en": "1pc Thigh Mild"
+                        },
+                        "nutrition": {
+                            "calories": 280,
+                            "sodium": 640,
+                            "cholesterol": 50
+                        }
+                    }
+                },
+                {
+                    "minAmount": 1,
+                    "maxAmount": 1,
+                    "defaultAmount": 1,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40833",
+                        "name": {
+                            "en": "1pc Breast Mild"
+                        },
+                        "nutrition": {
+                            "calories": 380,
+                            "sodium": 1230,
+                            "cholesterol": 125
+                        }
+                    }
+                },
+                {
+                    "minAmount": 1,
+                    "maxAmount": 1,
+                    "defaultAmount": 1,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40836",
+                        "name": {
+                            "en": "1pc Wing Mild"
+                        },
+                        "nutrition": {
+                            "calories": 210,
+                            "sodium": 610,
+                            "cholesterol": 60
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Select Your Sides - 2 included"
+            },
+            "_type": "comboItem",
+            "_id": "3dc37305-21d3-4202-b94a-80e39d36946a",
+            "vendorPlus": null,
+            "uiPattern": "show",
+            "amountRequiredToSelect": 2,
+            "comboItemOptions": [
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 2,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_41031",
+                        "name": {
+                            "en": "Regular Cajun Fries"
+                        },
+                        "nutrition": {
+                            "calories": 268,
+                            "sodium": 587,
+                            "cholesterol": 3.5
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_41065",
+                        "name": {
+                            "en": "Regular Red Beans & Rice"
+                        },
+                        "nutrition": {
+                            "calories": 247,
+                            "sodium": 606,
+                            "cholesterol": 14
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_41054",
+                        "name": {
+                            "en": "Regular Mashed Potatoes w/ Gravy"
+                        },
+                        "nutrition": {
+                            "calories": 110,
+                            "sodium": 590,
+                            "cholesterol": 5
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_41035",
+                        "name": {
+                            "en": "Regular Cajun Rice"
+                        },
+                        "nutrition": {
+                            "calories": 183,
+                            "sodium": 576,
+                            "cholesterol": 53
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_41037",
+                        "name": {
+                            "en": "Regular Coleslaw"
+                        },
+                        "nutrition": {
+                            "calories": 140,
+                            "sodium": 190,
+                            "cholesterol": 5
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_41043",
+                        "name": {
+                            "en": "Regular Green Beans"
+                        },
+                        "nutrition": {
+                            "calories": 55,
+                            "sodium": 676,
+                            "cholesterol": 6.5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Biscuits - 1 Included"
+            },
+            "_type": "comboItem",
+            "_id": "a870f058-508e-498f-82ae-b228d37d90fd",
+            "vendorPlus": null,
+            "uiPattern": "locked",
+            "amountRequiredToSelect": 1,
+            "comboItemOptions": [
+                {
+                    "minAmount": 1,
+                    "maxAmount": 1,
+                    "defaultAmount": 1,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40966",
+                        "name": {
+                            "en": "Biscuits"
+                        },
+                        "nutrition": {
+                            "calories": 207,
+                            "sodium": 435,
+                            "cholesterol": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Medium Beverage- 1 Included"
+            },
+            "_type": "comboItem",
+            "_id": "xdgrygmaqSf78Pjdh0bx3N",
+            "vendorPlus": null,
+            "uiPattern": "show",
+            "amountRequiredToSelect": 1,
+            "comboItemOptions": [
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40844",
+                        "name": {
+                            "en": "Medium Coca-Cola®"
+                        },
+                        "nutrition": {
+                            "calories": 390,
+                            "sodium": 95,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 1,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40923",
+                        "name": {
+                            "en": "Medium Sweet Tea"
+                        },
+                        "nutrition": {
+                            "calories": 260,
+                            "sodium": 15,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40919",
+                        "name": {
+                            "en": "Medium Sprite®"
+                        },
+                        "nutrition": {
+                            "calories": 380,
+                            "sodium": 180,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40860",
+                        "name": {
+                            "en": "Medium Dr Pepper®"
+                        },
+                        "nutrition": {
+                            "calories": 380,
+                            "sodium": 115,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40871",
+                        "name": {
+                            "en": "Medium Fanta Strawberry®"
+                        },
+                        "nutrition": {
+                            "calories": 440,
+                            "sodium": 140,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40889",
+                        "name": {
+                            "en": "Medium Minute Maid® Lemonade"
+                        },
+                        "nutrition": {
+                            "calories": 400,
+                            "sodium": 270,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40852",
+                        "name": {
+                            "en": "Medium Diet Coke®"
+                        },
+                        "nutrition": {
+                            "calories": 0,
+                            "sodium": 130,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40883",
+                        "name": {
+                            "en": "Medium Hi-C® Flashin’ Fruit Punch"
+                        },
+                        "nutrition": {
+                            "calories": 480,
+                            "sodium": 95,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40929",
+                        "name": {
+                            "en": "Medium Unsweet Tea"
+                        },
+                        "nutrition": {
+                            "calories": 0,
+                            "sodium": 15,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40908",
+                        "name": {
+                            "en": "Medium Pepsi®"
+                        },
+                        "nutrition": {
+                            "calories": 410,
+                            "sodium": 85,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40867",
+                        "name": {
+                            "en": "Medium Fanta Orange®"
+                        },
+                        "nutrition": {
+                            "calories": 420,
+                            "sodium": 105,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40912",
+                        "name": {
+                            "en": "Medium MUG® Root Beer"
+                        },
+                        "nutrition": {
+                            "calories": 380,
+                            "sodium": 120,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40915",
+                        "name": {
+                            "en": "Medium Sierra Mist®"
+                        },
+                        "nutrition": {
+                            "calories": 410,
+                            "sodium": 90,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40902",
+                        "name": {
+                            "en": "Medium Mountain Dew®"
+                        },
+                        "nutrition": {
+                            "calories": 430,
+                            "sodium": 135,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40848",
+                        "name": {
+                            "en": "Medium Coca-Cola® Zero Sugar"
+                        },
+                        "nutrition": {
+                            "calories": 0,
+                            "sodium": 106,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40856",
+                        "name": {
+                            "en": "Medium Diet Pepsi®"
+                        },
+                        "nutrition": {
+                            "calories": 0,
+                            "sodium": 150,
+                            "cholesterol": 0
+                        }
+                    }
+                },
+                {
+                    "minAmount": 0,
+                    "maxAmount": 9,
+                    "defaultAmount": 0,
+                    "option": {
+                        "_type": "item",
+                        "_id": "item_40896",
+                        "name": {
+                            "en": "Medium Mello Yellow®"
+                        },
+                        "nutrition": {
+                            "calories": 415.0691,
+                            "sodium": 122.09,
+                            "cholesterol": 0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

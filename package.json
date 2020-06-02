@@ -1,0 +1,27 @@
+{
+  "engines": {
+    "node": "10.x.x"
+  },
+  "name": "rbi-serverless-homework",
+  "version": "0.0.1",
+  "author": "RBI Consumer Tech Group",
+  "private": true,
+  "scripts": {
+    "build": "yarn clean && tsc",
+    "clean": "rimraf ./dist",
+    "sls": "serverless -s dev",
+    "localdev": "yarn sls offline start --port ${SERVER_PORT:-3001}",
+    "start": "yarn build && yarn localdev",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "jest": "^24.8.0",
+    "rimraf": "^2.6.3",
+    "serverless": "^1.49.0",
+    "serverless-offline": "^5.10.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  }
+}
