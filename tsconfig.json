@@ -1,6 +1,6 @@
 {
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", "**/*.d.ts", "**/*.spec.ts", "**/*.integration.ts"],
+  "exclude": ["node_modules", "**/*.d.ts", "**/*/*.d.ts", "**/*.spec.ts", "**/*.integration.ts"],
   "compilerOptions": {
     "paths": {
       "*": ["./src/@types/*"]
@@ -9,10 +9,12 @@
     "outDir": "./dist",
     "target": "ES2018",
     "lib": ["dom", "es2018", "esnext.asynciterable"],
-    "module": "commonjs",
+    "module": "commonJS",
     "strict": true,
+    "noImplicitAny": false,
     "removeComments": false,
     "sourceMap": true,
+    "resolveJsonModule": true,
     "moduleResolution": "node",
     "declaration": true ,
     "esModuleInterop": true 

@@ -1,3 +1,8 @@
+just do:
+yarn start
+
+to start the server and see all routes.
+
 # RBI CTG: Serverless Homework Question
 
 Use the Serverless framework and our TypeScript boilerplate application to complete the 3 endpoints below. 

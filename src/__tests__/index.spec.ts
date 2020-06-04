@@ -1,4 +1,4 @@
-import { menuHandler, cartHandler, calorieCounterHandler } from "..";
+import { menuHandler, cartHandler, calorieCounterHandler } from "../";
 
 /**
  * These tests only provide a basic assessment of correctness.
@@ -7,8 +7,8 @@ import { menuHandler, cartHandler, calorieCounterHandler } from "..";
  */
 
 describe("Homework", () => {
-  const expectedResponseShape = {
-    body: expect.any(String),
+
+  const expectedResponseShape = {    body: expect.any(String),
     statusCode: expect.any(Number)
   };
 

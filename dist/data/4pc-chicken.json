@@ -22,9 +22,7 @@
                     "option": {
                         "_type": "item",
                         "_id": "item_40834",
-                        "name": {
-                            "en": "1pc Leg Mild"
-                        },
+                        "name": { "en": "1pc Leg Mild"},
                         "nutrition": {
                             "calories": 160,
                             "sodium": 460,

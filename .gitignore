@@ -1,0 +1,6 @@
+dist/
+.env
+serverless_sdk
+s_menu.js
+.serverless
+.env.secret

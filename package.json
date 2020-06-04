@@ -1,27 +1,31 @@
 {
   "engines": {
-    "node": "10.x.x"
+    "node": "12.x.x"
   },
-  "name": "rbi-serverless-homework",
+  "name": "rbi-serverless-homework-by-vic",
   "version": "0.0.1",
   "author": "RBI Consumer Tech Group",
   "private": true,
   "scripts": {
     "build": "yarn clean && tsc",
     "clean": "rimraf ./dist",
+    "ncp": "ncp ./src/data ./dist/data --stopOnErr",
     "sls": "serverless -s dev",
     "localdev": "yarn sls offline start --port ${SERVER_PORT:-3001}",
-    "start": "yarn build && yarn localdev",
+    "start": "yarn build && yarn ncp && yarn localdev",
     "test": "jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/node": "^14.0.9"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.17",
     "jest": "^24.8.0",
     "rimraf": "^2.6.3",
-    "serverless": "^1.49.0",
-    "serverless-offline": "^5.10.1",
+    "ncp": "",
+    "serverless": "1.60",
+    "serverless-offline": "^6.3.0",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.5.3"
+    "typescript": "3.5"
   }
 }

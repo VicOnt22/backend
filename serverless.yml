@@ -1,3 +1,5 @@
+org: vicont
+app: backend
 service: sls-rbi-homework
 
 custom:
@@ -15,14 +17,29 @@ plugins:
 
 package:
   include: "*"
-
+  # Problem #1: Return the PLK menu
 functions:
   menu:
-    description: Called to create an order in NCR.
+    description: Return the PLK menu.
     handler: dist/index.menuHandler
     events:
       - http:
           path: menu
           method: GET
-  # Question #2: Add a `GET /cart` endpoint
-  # Question #3 Add a `GET /4pc-chicken/calories` endpoint
+  # Problem #2: Add a `GET /cart` endpoint
+  cart:
+    description: Map PLU to itemId on the user cart.
+    handler: dist/index.cartHandler
+    events:
+      - http:
+          path: cart
+          method: GET
+  # Problem #3 Add a `GET /4pc-chicken/calories` endpoint
+  calories:
+    description: Compute min & max calories for a 4PC chicken combo.
+    handler: dist/index.calorieCounterHandler
+    events:
+      - http:
+          path: 4pc-chicken/calories
+          method: GET
+
